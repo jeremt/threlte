@@ -205,20 +205,20 @@ importers:
         specifier: ^0.6.1
         version: 0.6.2(@theatre/core@0.6.2)
       '@threlte/core':
-        specifier: latest
+        specifier: workspace:*
         version: link:../../packages/core
       '@threlte/extras':
-        specifier: latest
+        specifier: workspace:*
         version: link:../../packages/extras
       '@threlte/rapier':
-        specifier: latest
+        specifier: workspace:*
         version: link:../../packages/rapier
       '@threlte/theatre':
-        specifier: latest
+        specifier: workspace:*
         version: link:../../packages/theatre
       '@threlte/xr':
-        specifier: latest
-        version: 0.0.3(svelte@4.2.0)(three@0.155.0)
+        specifier: workspace:*
+        version: link:../../packages/xr
       '@types/three':
         specifier: ^0.155
         version: 0.155.1
@@ -3364,16 +3364,6 @@ packages:
     dependencies:
       '@theatre/core': 0.6.2
       '@theatre/dataverse': 0.6.2
-
-  /@threlte/xr@0.0.3(svelte@4.2.0)(three@0.155.0):
-    resolution: {integrity: sha512-a8PUuiFbgX7pwyYeMvIe2xDPg2XMScjM9M6qsb/DpaxAJcBk/9cAUnb0E3ZJw6DI5Zhde6sToaDP2L+OKSKsjw==}
-    peerDependencies:
-      svelte: '>=4'
-      three: '>=0.133'
-    dependencies:
-      svelte: 4.2.0
-      three: 0.155.0
-    dev: true
 
   /@tootallnate/once@2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
